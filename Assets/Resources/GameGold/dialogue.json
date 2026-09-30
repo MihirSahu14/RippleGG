@@ -1,0 +1,3821 @@
+{
+  "npcName": "",
+  "personality": "",
+  "nodes": [
+    {
+      "id": "op1",
+      "speaker": "",
+      "text": "RIPPLE",
+      "choices": [],
+      "next": "op2",
+      "bg": "start_screen",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "op2",
+      "speaker": "",
+      "text": "Small decisions. You won't notice them adding up.",
+      "choices": [],
+      "next": "op3",
+      "bg": "train_tracks_dusk",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "op3",
+      "speaker": "",
+      "text": "Two kids in a small town by the sea and the train tracks. You'll live a few ordinary days of each life, one at a time.",
+      "choices": [],
+      "next": "op4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "op4",
+      "speaker": "",
+      "text": "Later, those two lives meet. What happens then depends on who they've become.",
+      "choices": [],
+      "next": "ac1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ac1",
+      "speaker": "",
+      "text": "AVERY",
+      "choices": [],
+      "next": "ac2",
+      "bg": "title",
+      "chapter": "avery",
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ac2",
+      "speaker": "",
+      "text": "Sixteen. Four towns in six years. A bedroom with nothing on the walls.",
+      "choices": [],
+      "next": "bf1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf1",
+      "speaker": "",
+      "text": "Avery. Sixteen. A kitchen that still smells like the last apartment's boxes.",
+      "choices": [],
+      "next": "bf2",
+      "bg": "kitchen_morning",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf2",
+      "speaker": "",
+      "text": "Mom is already dressed for work, eating toast over the sink so she won't have to sit down.",
+      "choices": [],
+      "next": "bf3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf3",
+      "speaker": "Avery",
+      "text": "Avery slides the printout across the counter. Three AP classes. Three A's.",
+      "choices": [],
+      "next": "bf4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "hopeful",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf4",
+      "speaker": "Mom",
+      "text": "Mom glances at it between bites.",
+      "choices": [],
+      "next": "bf5",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "distracted",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf5",
+      "speaker": "Mom",
+      "text": "\"That's good, hon. Chem's still an A-minus though, right? Try harder on that one.\"",
+      "choices": [],
+      "next": "bf6",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "distracted",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf6",
+      "speaker": "",
+      "text": "She kisses the top of Avery's head and grabs her keys.",
+      "choices": [],
+      "next": "bfC",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c1_1",
+      "speaker": "Avery",
+      "text": "\"Did you even look at the other two?\"",
+      "choices": [],
+      "next": "bf_c1_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tense",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c1_2",
+      "speaker": "Mom",
+      "text": "\"I looked, Avery. I'm late.\"",
+      "choices": [],
+      "next": "bf_c1_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "guarded",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c1_3",
+      "speaker": "",
+      "text": "The door closes a little harder than it needs to. Avery reads the printout again. It still says A-minus.",
+      "choices": [],
+      "next": "sh1",
+      "bg": null,
+      "chapter": null,
+      "sfx": "door_close",
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c2_1",
+      "speaker": "Avery",
+      "text": "\"I'm proud of it anyway,\" Avery says.",
+      "choices": [],
+      "next": "bf_c2_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "steady",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c2_2",
+      "speaker": "Mom",
+      "text": "Mom pauses at the door, surprised. \"...You should be.\"",
+      "choices": [],
+      "next": "bf_c2_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c2_3",
+      "speaker": "",
+      "text": "Avery folds the printout and puts it in her bag. For herself.",
+      "choices": [],
+      "next": "sh1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c3_1",
+      "speaker": "Avery",
+      "text": "Avery says nothing.",
+      "choices": [],
+      "next": "bf_c3_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "blank",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c3_2",
+      "speaker": "",
+      "text": "That night she retakes the chem practice test until her eyes hurt, then texts Mom a photo of the score at 1:12 a.m.",
+      "choices": [],
+      "next": "bf_c3_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c3_3",
+      "speaker": "",
+      "text": "No reply. She checks again at 1:20. And 1:31.",
+      "choices": [],
+      "next": "sh1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c4_1",
+      "speaker": "Avery",
+      "text": "\"Big meeting today?\"",
+      "choices": [],
+      "next": "bf_c4_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "neutral",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c4_2",
+      "speaker": "Mom",
+      "text": "\"The biggest,\" Mom sighs, and for a minute they just talk.",
+      "choices": [],
+      "next": "bf_c4_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tired",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bf_c4_3",
+      "speaker": "",
+      "text": "The printout stays on the counter. Avery doesn't mind as much as she thought she would.",
+      "choices": [],
+      "next": "sh1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bfC",
+      "speaker": "",
+      "text": "",
+      "choices": [
+        {
+          "text": "\"Did you even look at the other two?\"",
+          "next": "bf_c1_1",
+          "effects": {
+            "avery_anxiety": 1
+          }
+        },
+        {
+          "text": "\"I'm proud of it anyway.\"",
+          "next": "bf_c2_1",
+          "effects": {
+            "avery_anxiety": -2
+          }
+        },
+        {
+          "text": "Say nothing. Retake the chem practice test tonight.",
+          "next": "bf_c3_1",
+          "effects": {
+            "avery_anxiety": 2
+          }
+        },
+        {
+          "text": "Ask how Mom's day is going instead.",
+          "next": "bf_c4_1",
+          "effects": {
+            "avery_anxiety": -1
+          }
+        }
+      ],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh1",
+      "speaker": "",
+      "text": "Two weeks later. The animal shelter on Harbor Street, a ten-minute walk down the tracks.",
+      "choices": [],
+      "next": "echo_sh",
+      "bg": "shelter_day",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_sh",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety >= 1",
+          "next": "echo_sh_1"
+        },
+        {
+          "when": "avery_anxiety <= -1",
+          "next": "echo_sh_2"
+        },
+        {
+          "when": "else",
+          "next": "r3_echo_sh_mid"
+        }
+      ]
+    },
+    {
+      "id": "echo_sh_1",
+      "speaker": "",
+      "text": "Halfway down the tracks she checks her phone. Nothing from Mom. She checks it again at the shelter door before she goes in.",
+      "choices": [],
+      "next": "shBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_sh_2",
+      "speaker": "",
+      "text": "She walks it with her phone at the bottom of her bag and her hands free, counting rail ties until she loses count.",
+      "choices": [],
+      "next": "shBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_echo_sh_mid",
+      "speaker": "",
+      "text": "She checks her phone once at the crossing, puts it away, and doesn't think about it again until the shelter door.",
+      "choices": [],
+      "next": "shBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "shBranch",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety < 0",
+          "next": "sh2a"
+        },
+        {
+          "when": "else",
+          "next": "sh2b"
+        }
+      ]
+    },
+    {
+      "id": "sh2a",
+      "speaker": "",
+      "text": "Mom signed the volunteer form without a single question. \"Good. Get out of the house,\" she said, and it sounded almost proud.",
+      "choices": [],
+      "next": "sh3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh2b",
+      "speaker": "",
+      "text": "Mom signed the volunteer form at the counter without reading it. Avery watched her not read it.",
+      "choices": [],
+      "next": "sh3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh3",
+      "speaker": "",
+      "text": "She'd rather work at the aquarium, honestly. But the aquarium is two buses away, and the shelter is a reason to be outside that Mom can't argue with.",
+      "choices": [],
+      "next": "sh4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh4",
+      "speaker": "",
+      "text": "The coordinator, Donna, hands her a mop and a list. Water bowls. Litter. The cat room.",
+      "choices": [],
+      "next": "sh5",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh5",
+      "speaker": "",
+      "text": "In the cat room there's a boy on the floor, talking to a cage like it owes him money.",
+      "choices": [],
+      "next": "sh6",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh6",
+      "speaker": "Skyler",
+      "text": "\"Pickles. Buddy. I'm not the vet. I'm just the guy with the tuna.\"",
+      "choices": [],
+      "next": "sh7",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "awkward",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh7",
+      "speaker": "",
+      "text": "He notices Avery and goes completely silent, like she caught him singing.",
+      "choices": [],
+      "next": "sh8",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh8",
+      "speaker": "Skyler",
+      "text": "\"...He's shy,\" the boy says finally. \"Pickles. Not me. Well.\"",
+      "choices": [],
+      "next": "sh9",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "awkward",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh9",
+      "speaker": "",
+      "text": "His name is Skyler. His earrings are a little crooked. He's better with the cats than with her, and somehow that makes her like him right away.",
+      "choices": [],
+      "next": "sh10",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh10",
+      "speaker": "",
+      "text": "At five, Donna leans into the room. \"Anyone able to stay and do the laundry tonight? No pressure.\"",
+      "choices": [],
+      "next": "sh11",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh11",
+      "speaker": "",
+      "text": "Skyler raises his hand without looking up. He looks exhausted. Mom said to be home by six.",
+      "choices": [],
+      "next": "shC",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c1_1",
+      "speaker": "Avery",
+      "text": "\"I've got ten minutes,\" Avery says.",
+      "choices": [],
+      "next": "sh_c1_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "neutral",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c1_2",
+      "speaker": "",
+      "text": "They fold towels in silence that isn't bad. At 5:10 she goes.",
+      "choices": [],
+      "next": "sh_c1_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c1_3",
+      "speaker": "Skyler",
+      "text": "\"Thanks,\" Skyler says to the dryer. Then, to her: \"You're good with Pickles. He hissed at me for a week.\"",
+      "choices": [],
+      "next": "bd1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c2_1",
+      "speaker": "Avery",
+      "text": "Avery takes the pen before anyone else can. Laundry. Sunday. Tuesday. The dog-walk shift nobody wants.",
+      "choices": [],
+      "next": "sh_c2_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "hopeful",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c2_2",
+      "speaker": "",
+      "text": "\"What would we do without you?\" Donna says.",
+      "choices": [],
+      "next": "sh_c2_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c2_3",
+      "speaker": "",
+      "text": "Avery keeps that sentence and turns it over on the walk home, like a smooth stone. By November she's there four days a week. Skyler learns her schedule without trying.",
+      "choices": [],
+      "next": "bd1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c3_1",
+      "speaker": "Avery",
+      "text": "\"Can't tonight, sorry!\" Avery means the sorry, just not too much.",
+      "choices": [],
+      "next": "sh_c3_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "steady",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c3_2",
+      "speaker": "",
+      "text": "On her way out, Skyler lifts a hand from behind the laundry basket. She waves back.",
+      "choices": [],
+      "next": "sh_c3_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c3_3",
+      "speaker": "",
+      "text": "Next Saturday, he saves her the good mop. It's a weird gift. She takes it.",
+      "choices": [],
+      "next": "bd1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c4_1",
+      "speaker": "Avery",
+      "text": "She stays. He doesn't ask her to, which makes it feel more important.",
+      "choices": [],
+      "next": "sh_c4_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "hopeful",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c4_2",
+      "speaker": "Mom",
+      "text": "They fold until the dryer buzzes twice. She gets home at 6:40 to a text: \"where are you??\"",
+      "choices": [],
+      "next": "sh_c4_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tense",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "sh_c4_3",
+      "speaker": "",
+      "text": "Avery apologizes to Mom. Then to Donna, for leaving the mop out. Then to Skyler, for no reason at all.",
+      "choices": [],
+      "next": "bd1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "shC",
+      "speaker": "",
+      "text": "",
+      "choices": [
+        {
+          "text": "Offer to help Skyler, but only for ten minutes.",
+          "next": "sh_c1_1",
+          "effects": {
+            "avery_anxiety": -1
+          }
+        },
+        {
+          "text": "Sign up for the laundry. And Sunday. And whatever else is on the board.",
+          "next": "sh_c2_1",
+          "effects": {
+            "avery_anxiety": 2
+          }
+        },
+        {
+          "text": "Say she can't tonight, and not feel bad about it.",
+          "next": "sh_c3_1",
+          "effects": {
+            "avery_anxiety": -2
+          }
+        },
+        {
+          "text": "Stay and help him, even though Mom said six.",
+          "next": "sh_c4_1",
+          "effects": {
+            "avery_anxiety": 1
+          }
+        }
+      ],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd1",
+      "speaker": "",
+      "text": "Weeks later. Avery's room at night.",
+      "choices": [],
+      "next": "echo_bd",
+      "bg": "avery_room_night",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_bd",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety >= 1",
+          "next": "echo_bd_1"
+        },
+        {
+          "when": "avery_anxiety <= -1",
+          "next": "echo_bd_2"
+        },
+        {
+          "when": "else",
+          "next": "echo_bd_3"
+        }
+      ]
+    },
+    {
+      "id": "echo_bd_1",
+      "speaker": "",
+      "text": "Her phone is on the pillow next to her, screen up, brightness all the way. She's picked it up four times since dinner to check nothing.",
+      "choices": [],
+      "next": "bd2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_bd_2",
+      "speaker": "",
+      "text": "Her phone is charging across the room, and she's left it there. She's been reading the same library book for an hour, and liking it.",
+      "choices": [],
+      "next": "bd2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_bd_3",
+      "speaker": "",
+      "text": "Her phone is on the desk, face-up. She hasn't decided yet if that's on purpose.",
+      "choices": [],
+      "next": "bd2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd2",
+      "speaker": "",
+      "text": "Nothing on the walls. The shrimp tank hums in the corner, the only light in the room.",
+      "choices": [],
+      "next": "bd3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd3",
+      "speaker": "",
+      "text": "There's a stack of Polaroids on the desk: rust on the rails, a beetle on a leaf, Pickles's left ear. And one blurry one of Skyler, laughing, trying to block the lens with a towel.",
+      "choices": [],
+      "next": "bd4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd4",
+      "speaker": "",
+      "text": "Saturday was supposed to be the tide pools. She'd looked up when low tide was. 2:14 p.m.",
+      "choices": [],
+      "next": "bd5",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd5",
+      "speaker": "",
+      "text": "Her phone buzzes.",
+      "choices": [],
+      "next": "bd6",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd6",
+      "speaker": "Skyler",
+      "text": "\"hey so. band practice got moved to sat. sorry. next week?\"",
+      "choices": [],
+      "next": "bd7",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "flat",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd7",
+      "speaker": "",
+      "text": "It's the third Saturday this month. The band is four guys in Theo's garage who have one and a half songs.",
+      "choices": [],
+      "next": "bd8",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd8",
+      "speaker": "",
+      "text": "He's still online. She can see him being online.",
+      "choices": [],
+      "next": "bdC",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c1_1",
+      "speaker": "Avery",
+      "text": "\"send me a pic of practice then :)\"",
+      "choices": [],
+      "next": "bd_c1_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tense",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c1_2",
+      "speaker": "Skyler",
+      "text": "Three minutes later: a blurry photo of a garage. An amp. Somebody's elbow.",
+      "choices": [],
+      "next": "bd_c1_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "flat",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c1_3",
+      "speaker": "",
+      "text": "Avery zooms in and counts the people. Then counts again. She doesn't feel better. She just feels like she's holding something too tightly and can't figure out how to let go.",
+      "choices": [],
+      "next": "kc1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c2_1",
+      "speaker": "Avery",
+      "text": "\"ok :( have fun\"",
+      "choices": [],
+      "next": "bd_c2_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "neutral",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c2_2",
+      "speaker": "Skyler",
+      "text": "\"ty. i'll make it up to u\"",
+      "choices": [],
+      "next": "bd_c2_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c2_3",
+      "speaker": "",
+      "text": "She feeds the shrimp and watches them pick at the moss for a while. It stings. It's a small sting.",
+      "choices": [],
+      "next": "kc1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c3_1",
+      "speaker": "Avery",
+      "text": "\"np!!\"",
+      "choices": [],
+      "next": "bd_c3_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "hopeful",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c3_2",
+      "speaker": "",
+      "text": "The band's story, posted 4:12 p.m.: the garage, a guitar, a girl laughing somewhere off-camera.",
+      "choices": [],
+      "next": "bd_c3_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c3_3",
+      "speaker": "",
+      "text": "Avery watches it five times. She doesn't reply to anything else that night.",
+      "choices": [],
+      "next": "kc1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c4_1",
+      "speaker": "Avery",
+      "text": "\"bummed!! but ok. next sat you're buying the fries\"",
+      "choices": [],
+      "next": "bd_c4_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "steady",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c4_2",
+      "speaker": "Skyler",
+      "text": "\"deal. large.\"",
+      "choices": [],
+      "next": "bd_c4_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bd_c4_3",
+      "speaker": "",
+      "text": "On Saturday she walks the tracks at low tide by herself and takes eleven Polaroids of the light. It's actually a really good day.",
+      "choices": [],
+      "next": "kc1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "bdC",
+      "speaker": "",
+      "text": "",
+      "choices": [
+        {
+          "text": "Reply: \"send me a pic of practice then :)\"",
+          "next": "bd_c1_1",
+          "effects": {
+            "avery_anxiety": 2
+          }
+        },
+        {
+          "text": "Reply: \"ok :( have fun\" and mean most of it.",
+          "next": "bd_c2_1",
+          "effects": {
+            "avery_anxiety": -1
+          }
+        },
+        {
+          "text": "Reply \"np!!\", then check the band's story to see if it's really practice.",
+          "next": "bd_c3_1",
+          "effects": {
+            "avery_anxiety": 1
+          }
+        },
+        {
+          "text": "Reply: \"bummed!! but ok. next sat you're buying the fries\"",
+          "next": "bd_c4_1",
+          "effects": {
+            "avery_anxiety": -2
+          }
+        }
+      ],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kc1",
+      "speaker": "",
+      "text": "SKYLER",
+      "choices": [],
+      "next": "kc2",
+      "bg": "title",
+      "chapter": "skyler",
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kc2",
+      "speaker": "",
+      "text": "Same town. Same autumn. A different house, and a lot louder.",
+      "choices": [],
+      "next": "kr1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr1",
+      "speaker": "",
+      "text": "Skyler. Fifteen. The room is dark. A phone is ringing somewhere under the blanket.",
+      "choices": [],
+      "next": "kr2",
+      "bg": "skyler_room_dim",
+      "chapter": null,
+      "sfx": "phone_ring",
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr2",
+      "speaker": "",
+      "text": "He digs it out. \"River\" is calling.",
+      "choices": [],
+      "next": "kr3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr3",
+      "speaker": "Skyler",
+      "text": "River hasn't called for almost a month now. She promised to call every week before she left for college. She lied.",
+      "choices": [],
+      "next": "kr4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "bitter",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr4",
+      "speaker": "Skyler",
+      "text": "She must be so happy living her life that she doesn't need me anymore. Like a pet she adopted and doesn't need now that she's starting a new chapter.",
+      "choices": [],
+      "next": "kr5",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "bitter",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr5",
+      "speaker": "Skyler",
+      "text": "Well, I can't blame her. Anyone lucky enough to be born into this family would want to leave. Including me.",
+      "choices": [],
+      "next": "kr6",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "flat",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr6",
+      "speaker": "Skyler",
+      "text": "\"River, sometimes I wish you weren't my sister,\" he sighs.",
+      "choices": [],
+      "next": "krC",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tired",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c1_1",
+      "speaker": "Skyler",
+      "text": "\"...Hey.\"",
+      "choices": [],
+      "next": "kr_c1_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "guarded",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c1_2",
+      "speaker": "River",
+      "text": "\"Sky! Sorry, sorry, midterms ate me alive. Tell me everything. Is Mom still doing the thing with the thermostat?\"",
+      "choices": [],
+      "next": "kr_c1_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "bright",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c1_3",
+      "speaker": "",
+      "text": "He laughs before he can stop himself. They talk for an hour. He doesn't hear the shouting downstairs once.",
+      "choices": [],
+      "next": "kp1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c2_1",
+      "speaker": "Skyler",
+      "text": "\"How much do you miss me, River?\" he whispers at the screen.",
+      "choices": [],
+      "next": "kr_c2_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "bitter",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c2_2",
+      "speaker": "",
+      "text": "Nine rings. Then nothing.",
+      "choices": [],
+      "next": "kr_c2_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c2_3",
+      "speaker": "",
+      "text": "The sound of the house comes back slowly: a door, a raised voice, a plate set down too hard. The screen goes dark in his hand.",
+      "choices": [],
+      "next": "kp1",
+      "bg": null,
+      "chapter": null,
+      "sfx": "door_close",
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c3_1",
+      "speaker": "Skyler",
+      "text": "not in the mood. later?",
+      "choices": [],
+      "next": "kr_c3_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "flat",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c3_2",
+      "speaker": "River",
+      "text": "The ringing stops. A reply, fast: \"ok but you HAVE to call sunday. i mean it. love you\"",
+      "choices": [],
+      "next": "kr_c3_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "worried",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c3_3",
+      "speaker": "",
+      "text": "He reads it three times. He doesn't answer. But he doesn't delete it either.",
+      "choices": [],
+      "next": "kp1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c4_1",
+      "speaker": "Skyler",
+      "text": "He lets it ring.",
+      "choices": [],
+      "next": "kr_c4_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "blank",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kr_c4_2",
+      "speaker": "",
+      "text": "It stops. The room is quiet enough to hear his parents through the floor again.",
+      "choices": [],
+      "next": "kp1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "krC",
+      "speaker": "",
+      "text": "",
+      "choices": [
+        {
+          "text": "Put the bitterness away and pick up.",
+          "next": "kr_c1_1",
+          "effects": {
+            "skyler_avoidance": -2
+          }
+        },
+        {
+          "text": "\"How much do you miss me, River?\" Watch how long it rings.",
+          "next": "kr_c2_1",
+          "effects": {
+            "skyler_avoidance": 2
+          }
+        },
+        {
+          "text": "Text her: \"not in the mood.\"",
+          "next": "kr_c3_1",
+          "effects": {
+            "skyler_avoidance": 0
+          }
+        },
+        {
+          "text": "Stay silent. Wait for it to stop.",
+          "next": "kr_c4_1",
+          "effects": {
+            "skyler_avoidance": 1
+          }
+        }
+      ],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp1",
+      "speaker": "",
+      "text": "Monday. AP Psych, third period.",
+      "choices": [],
+      "next": "echo_kp",
+      "bg": "classroom",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_kp",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance >= 1",
+          "next": "echo_kp_1"
+        },
+        {
+          "when": "skyler_avoidance <= -1",
+          "next": "echo_kp_2"
+        },
+        {
+          "when": "else",
+          "next": "r3_echo_kp_mid"
+        }
+      ]
+    },
+    {
+      "id": "echo_kp_1",
+      "speaker": "",
+      "text": "He left for school before anyone was up and pulled every door shut behind him, carefully, so none of them made a sound.",
+      "choices": [],
+      "next": "kpBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_kp_2",
+      "speaker": "",
+      "text": "He left his bedroom door open this morning. On his way out he said \"bye\" to the kitchen, to whoever was in it.",
+      "choices": [],
+      "next": "kpBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_echo_kp_mid",
+      "speaker": "",
+      "text": "He left for school at the usual time. Nobody said anything to him. He didn't say anything either.",
+      "choices": [],
+      "next": "kpBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kpBranch",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance < 0",
+          "next": "kp2a"
+        },
+        {
+          "when": "else",
+          "next": "kp2b"
+        }
+      ]
+    },
+    {
+      "id": "kp2a",
+      "speaker": "",
+      "text": "River's voice from last night is still in his head, loud and ridiculous. It's the first Monday in a while that doesn't feel like a wall.",
+      "choices": [],
+      "next": "kp3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp2b",
+      "speaker": "",
+      "text": "His phone is face-down at the bottom of his bag. He hasn't turned it over since last night.",
+      "choices": [],
+      "next": "kp3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp3",
+      "speaker": "",
+      "text": "Ms. Okafor is talking about memory. How you don't really remember what happened. You remember the last time you remembered it.",
+      "choices": [],
+      "next": "kp4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp4",
+      "speaker": "",
+      "text": "Skyler stares at the board. He can't hear a single thing she's saying.",
+      "choices": [],
+      "next": "kp5",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp5",
+      "speaker": "",
+      "text": "He's picked up so many extra shifts at the café this month that he's missed a whole week of notes. The case-study worksheet is due Friday. His is blank.",
+      "choices": [],
+      "next": "kp6",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp6",
+      "speaker": "",
+      "text": "The girl who sits next to him leans over and taps his empty page with her pen.",
+      "choices": [],
+      "next": "kp7",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp7",
+      "speaker": "Classmate",
+      "text": "\"You missed the reconsolidation stuff, right? I can walk you through it at lunch. It's like ten minutes.\"",
+      "choices": [],
+      "next": "kpC",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "friendly",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c1_1",
+      "speaker": "Skyler",
+      "text": "He puts his earbuds in. Nothing's playing.",
+      "choices": [],
+      "next": "kp_c1_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "blank",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c1_2",
+      "speaker": "Classmate",
+      "text": "Through the silence he hears her tell her friend, \"Never mind.\"",
+      "choices": [],
+      "next": "kp_c1_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "neutral",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c1_3",
+      "speaker": "",
+      "text": "He does the worksheet alone and gets half of it wrong. He'd rather have it wrong than owe anybody.",
+      "choices": [],
+      "next": "ks1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c2_1",
+      "speaker": "Skyler",
+      "text": "\"...Thanks.\" He photographs her notes and slides them back.",
+      "choices": [],
+      "next": "kp_c2_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "guarded",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c2_2",
+      "speaker": "Classmate",
+      "text": "\"Sure,\" she says.",
+      "choices": [],
+      "next": "kp_c2_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "neutral",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c2_3",
+      "speaker": "",
+      "text": "He reads them on the bus to his shift. They help a lot. He doesn't tell her that.",
+      "choices": [],
+      "next": "ks1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c3_1",
+      "speaker": "Skyler",
+      "text": "\"Yeah. Honestly, I'm lost.\" It's out before he can dress it up.",
+      "choices": [],
+      "next": "kp_c3_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "awkward",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c3_2",
+      "speaker": "",
+      "text": "At lunch, in the art studio, she draws the whole unit on a napkin. It takes eight minutes. He gets it.",
+      "choices": [],
+      "next": "kp_c3_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c3_3",
+      "speaker": "Classmate",
+      "text": "\"You're funny when you're not being weird,\" she says. He doesn't know what to do with that. He keeps the napkin.",
+      "choices": [],
+      "next": "ks1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "friendly",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c4_1",
+      "speaker": "Skyler",
+      "text": "\"I'm good. I'll figure it out.\"",
+      "choices": [],
+      "next": "kp_c4_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "flat",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c4_2",
+      "speaker": "Classmate",
+      "text": "She shrugs. \"Offer stands.\"",
+      "choices": [],
+      "next": "kp_c4_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "neutral",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kp_c4_3",
+      "speaker": "",
+      "text": "He figures it out at 1 a.m. at the kitchen table, after the fighting stops. B-minus. It feels like his, at least.",
+      "choices": [],
+      "next": "ks1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "kpC",
+      "speaker": "",
+      "text": "",
+      "choices": [
+        {
+          "text": "Pretend he didn't hear. Put his earbuds in.",
+          "next": "kp_c1_1",
+          "effects": {
+            "skyler_avoidance": 2
+          }
+        },
+        {
+          "text": "Take a photo of her notes. \"Thanks.\" Nothing more.",
+          "next": "kp_c2_1",
+          "effects": {
+            "skyler_avoidance": -1
+          }
+        },
+        {
+          "text": "\"Yeah. Honestly, I'm lost.\"",
+          "next": "kp_c3_1",
+          "effects": {
+            "skyler_avoidance": -2
+          }
+        },
+        {
+          "text": "\"I'm good. I'll figure it out.\"",
+          "next": "kp_c4_1",
+          "effects": {
+            "skyler_avoidance": 1
+          }
+        }
+      ],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks1",
+      "speaker": "",
+      "text": "Thursday. The shelter, after close. Skyler's on laundry again.",
+      "choices": [],
+      "next": "echo_ks",
+      "bg": "shelter_evening",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_ks",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance >= 1",
+          "next": "echo_ks_1"
+        },
+        {
+          "when": "skyler_avoidance <= -1",
+          "next": "echo_ks_2"
+        },
+        {
+          "when": "else",
+          "next": "echo_ks_3"
+        }
+      ]
+    },
+    {
+      "id": "echo_ks_1",
+      "speaker": "",
+      "text": "His phone is face-down on the dryer. It buzzes once while he folds towels. He doesn't turn it over.",
+      "choices": [],
+      "next": "ks2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_ks_2",
+      "speaker": "",
+      "text": "His phone is face-up on the dryer. It lights up with a photo from River of her dorm's sad pancakes, and he texts back: \"tragic.\"",
+      "choices": [],
+      "next": "ks2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_ks_3",
+      "speaker": "",
+      "text": "His phone is on the dryer. He turns it face-down, then face-up, then leaves it however it lands.",
+      "choices": [],
+      "next": "ks2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks2",
+      "speaker": "",
+      "text": "Avery is sitting on the floor of the cat room with her back against Pickles's cage, reading a shrimp-care guide out loud. She's been there forty minutes.",
+      "choices": [],
+      "next": "ks3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks3",
+      "speaker": "Avery",
+      "text": "\"...and remember, a stressed shrimp is a hiding shrimp. Relatable, right, Pickles?\"",
+      "choices": [],
+      "next": "ks4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks4",
+      "speaker": "",
+      "text": "Pickles hasn't come out for anyone in three weeks.",
+      "choices": [],
+      "next": "ks5",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks5",
+      "speaker": "",
+      "text": "Pickles comes out.",
+      "choices": [],
+      "next": "ks6",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks6",
+      "speaker": "",
+      "text": "He puts one paw on her knee, like he's checking if it's real. Avery doesn't move. She doesn't even breathe. She just lets him decide.",
+      "choices": [],
+      "next": "ks7",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks7",
+      "speaker": "Skyler",
+      "text": "Oh.",
+      "choices": [],
+      "next": "ks8",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "blank",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks8",
+      "speaker": "Skyler",
+      "text": "Oh, no.",
+      "choices": [],
+      "next": "ks9",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "awkward",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks9",
+      "speaker": "",
+      "text": "He likes her. He likes her the way you can't un-know something.",
+      "choices": [],
+      "next": "ks10",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks10",
+      "speaker": "Avery",
+      "text": "She looks up and catches him staring. \"Tide pools Saturday? Low tide's at two. You, me, bad sandwiches.\"",
+      "choices": [],
+      "next": "ksC",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "hopeful",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c1_1",
+      "speaker": "Skyler",
+      "text": "\"Maybe. I might have band practice.\"",
+      "choices": [],
+      "next": "ks_c1_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "guarded",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c1_2",
+      "speaker": "",
+      "text": "There is no band practice. On the walk home, he texts Theo: \"can we practice sat?\"",
+      "choices": [],
+      "next": "ks_c1_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c1_3",
+      "speaker": "",
+      "text": "Theo says sure. The lie turns true, which somehow feels worse.",
+      "choices": [],
+      "next": "tw1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c2_1",
+      "speaker": "Skyler",
+      "text": "\"Sure.\" One syllable. It's all he's got.",
+      "choices": [],
+      "next": "ks_c2_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "awkward",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c2_2",
+      "speaker": "Avery",
+      "text": "\"Cool,\" she says, and it's enough for her.",
+      "choices": [],
+      "next": "ks_c2_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c2_3",
+      "speaker": "",
+      "text": "He spends the whole walk home rehearsing better things he could have said.",
+      "choices": [],
+      "next": "tw1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c3_1",
+      "speaker": "Skyler",
+      "text": "He mumbles something about the dryer and leaves.",
+      "choices": [],
+      "next": "ks_c3_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "blank",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c3_2",
+      "speaker": "",
+      "text": "The next week, his name moves to Tuesdays and Fridays. It's easier. He misses Pickles.",
+      "choices": [],
+      "next": "ks_c3_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c3_3",
+      "speaker": "Avery",
+      "text": "Avery texts: \"where'd u go??\" He reads it. He'll answer later.",
+      "choices": [],
+      "next": "tw1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "worried",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c4_1",
+      "speaker": "Skyler",
+      "text": "\"Yeah. I'd like that. A lot, actually.\" The last part comes out by accident.",
+      "choices": [],
+      "next": "ks_c4_2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c4_2",
+      "speaker": "Avery",
+      "text": "\"'A lot, actually,'\" Avery repeats, grinning.",
+      "choices": [],
+      "next": "ks_c4_3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "teasing",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ks_c4_3",
+      "speaker": "",
+      "text": "He goes home, and for once he doesn't hear the house at all.",
+      "choices": [],
+      "next": "tw1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ksC",
+      "speaker": "",
+      "text": "",
+      "choices": [
+        {
+          "text": "\"Maybe. I might have band practice.\"",
+          "next": "ks_c1_1",
+          "effects": {
+            "skyler_avoidance": 1
+          }
+        },
+        {
+          "text": "\"Sure.\" And nothing else.",
+          "next": "ks_c2_1",
+          "effects": {
+            "skyler_avoidance": -1
+          }
+        },
+        {
+          "text": "Say nothing. Switch his shifts to days she isn't here.",
+          "next": "ks_c3_1",
+          "effects": {
+            "skyler_avoidance": 2
+          }
+        },
+        {
+          "text": "\"Yeah. I'd like that. A lot, actually.\"",
+          "next": "ks_c4_1",
+          "effects": {
+            "skyler_avoidance": -2
+          }
+        }
+      ],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw1",
+      "speaker": "",
+      "text": "TOGETHER",
+      "choices": [],
+      "next": "tw2",
+      "bg": "title",
+      "chapter": "together",
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw2",
+      "speaker": "",
+      "text": "Late October. The part where it stops being two stories.",
+      "choices": [],
+      "next": "tw3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw3",
+      "speaker": "Avery",
+      "text": "Avery texts him: \"tracks. 6pm. don't be weird about it.\"",
+      "choices": [],
+      "next": "echo_tw",
+      "bg": "train_tracks_dusk",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_tw",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance >= 1",
+          "next": "echo_tw_1"
+        },
+        {
+          "when": "skyler_avoidance <= -1",
+          "next": "echo_tw_2"
+        },
+        {
+          "when": "else",
+          "next": "r3_echo_tw_mid"
+        }
+      ]
+    },
+    {
+      "id": "echo_tw_1",
+      "speaker": "",
+      "text": "Skyler reads it at 5:40 and doesn't answer. He's there at 6:04 anyway, hands in his hoodie, like he happened to be passing.",
+      "choices": [],
+      "next": "tw4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_tw_2",
+      "speaker": "",
+      "text": "Skyler answers in under a minute: \"i'm always weird about it.\" He's there at 5:55 with two hot chocolates from the gas station.",
+      "choices": [],
+      "next": "tw4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_echo_tw_mid",
+      "speaker": "",
+      "text": "Skyler answers at 5:52: \"ok.\" He's there at six exactly, like he set an alarm. He did.",
+      "choices": [],
+      "next": "tw4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw4",
+      "speaker": "",
+      "text": "They walk the rails toward the water. The sky goes orange, then pink, then the color of a bruise.",
+      "choices": [],
+      "next": "tw5",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw5",
+      "speaker": "",
+      "text": "She stops to take a Polaroid of a rusted bolt. Shakes it. Doesn't look at him.",
+      "choices": [],
+      "next": "r3_tw5a",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tw5a",
+      "speaker": "Skyler",
+      "text": "\"Pickles got adopted,\" Skyler says. \"Tuesday. A lady in a cardigan. He didn't even look back.\"",
+      "choices": [],
+      "next": "r3_tw5b",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "awkward",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tw5b",
+      "speaker": "Avery",
+      "text": "\"You read him a whole shrimp manual and he didn't look back?\"",
+      "choices": [],
+      "next": "r3_tw5c",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "teasing",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tw5c",
+      "speaker": "Skyler",
+      "text": "\"He's shy. Not me. Well.\" He kicks a rail tie. \"I was there, you know. When he came out for you. I saw.\"",
+      "choices": [],
+      "next": "r3_tw5d",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tw5d",
+      "speaker": "",
+      "text": "She's almost said it four times since September. At the shelter. At the gas station. Twice by text, deleted. Every time it went back in her pocket with the Polaroids.",
+      "choices": [],
+      "next": "tw6",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw6",
+      "speaker": "Avery",
+      "text": "\"Okay. I'm just going to say it, so neither of us has to pretend anymore.\"",
+      "choices": [],
+      "next": "tw7",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "steady",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw7",
+      "speaker": "Avery",
+      "text": "\"I like you. And you like me. I'm not asking. I'm just saying it.\"",
+      "choices": [],
+      "next": "twBranch1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "steady",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "twBranch1",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety < 0",
+          "next": "tw8a"
+        },
+        {
+          "when": "else",
+          "next": "tw8b"
+        }
+      ]
+    },
+    {
+      "id": "tw8a",
+      "speaker": "",
+      "text": "She says it and turns back to the tracks. She doesn't need him to say it back. She just wanted it out in the air.",
+      "choices": [],
+      "next": "tw9",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw8b",
+      "speaker": "",
+      "text": "She says it and then watches his face like a scoreboard, waiting for the number.",
+      "choices": [],
+      "next": "tw9",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw9",
+      "speaker": "",
+      "text": "Skyler would never have said it first. He's pretty sure he'd have taken it to his grave.",
+      "choices": [],
+      "next": "tw10",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw10",
+      "speaker": "Skyler",
+      "text": "\"...How did you know?\"",
+      "choices": [],
+      "next": "tw11",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "awkward",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw11",
+      "speaker": "Avery",
+      "text": "\"You got really bad at lying around October.\"",
+      "choices": [],
+      "next": "twBranch2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "teasing",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "twBranch2",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance < 0",
+          "next": "tw12a"
+        },
+        {
+          "when": "else",
+          "next": "tw12b"
+        }
+      ]
+    },
+    {
+      "id": "tw12a",
+      "speaker": "Skyler",
+      "text": "\"Yeah,\" he says. \"I do. Like you.\" He looks right at her while he says it, which is the hardest part.",
+      "choices": [],
+      "next": "tw13",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw12b",
+      "speaker": "Skyler",
+      "text": "He looks at the rails for a long time. \"Yeah,\" he says finally, like it costs something.",
+      "choices": [],
+      "next": "r3_tw12c",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "guarded",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tw12c",
+      "speaker": "",
+      "text": "It isn't a no. It's the most yes he's ever said out loud. It just had to come up past everything else first.",
+      "choices": [],
+      "next": "tw13",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tw13",
+      "speaker": "",
+      "text": "Far off, a train horn. They step off the tracks together and let it pass.",
+      "choices": [],
+      "next": "tg1",
+      "bg": null,
+      "chapter": null,
+      "sfx": "train_pass",
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tg1",
+      "speaker": "",
+      "text": "Three months later. They're together now.",
+      "choices": [],
+      "next": "echo_tg",
+      "bg": "shelter_evening",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_tg",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety >= 1",
+          "next": "echo_tg_1"
+        },
+        {
+          "when": "avery_anxiety <= -1",
+          "next": "echo_tg_2"
+        },
+        {
+          "when": "else",
+          "next": "r3_echo_tg_mid"
+        }
+      ]
+    },
+    {
+      "id": "echo_tg_1",
+      "speaker": "",
+      "text": "There's a Polaroid tucked in the back of Avery's phone case: the two of them squinting, Skyler's arm out. She didn't take it. She checks it's still there more than she needs to.",
+      "choices": [],
+      "next": "r3_tm1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_tg_2",
+      "speaker": "",
+      "text": "There's a Polaroid on Avery's bedroom wall now, the first thing ever up there: the two of them squinting, Skyler's arm out. She didn't take it. She likes that she didn't.",
+      "choices": [],
+      "next": "r3_tm1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_echo_tg_mid",
+      "speaker": "",
+      "text": "There's a Polaroid of them in Avery's desk drawer: the two of them squinting, Skyler's arm out. She hasn't decided where it goes yet.",
+      "choices": [],
+      "next": "r3_tm1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tm1",
+      "speaker": "",
+      "text": "Three months looks like this: Sunday shifts, together. He does the litter so she doesn't have to. She walks the dog nobody else can walk, because the dog likes her.",
+      "choices": [],
+      "next": "r3_tm2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tm2",
+      "speaker": "",
+      "text": "Most nights Skyler is somewhere that isn't home: the shelter, the café, the tracks. The house is still loud. He's just in it less.",
+      "choices": [],
+      "next": "r3_tm3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tm3",
+      "speaker": "",
+      "text": "Twice in December a Saturday turns into band practice. Both times he says sorry. Both times she says it's fine.",
+      "choices": [],
+      "next": "r3_tm4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tm4",
+      "speaker": "",
+      "text": "One night on the shelter steps, waiting for her bus, he says it out of nowhere.",
+      "choices": [],
+      "next": "r3_tmBranch1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tmBranch1",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety >= 1",
+          "next": "r3_tm5a"
+        },
+        {
+          "when": "else",
+          "next": "r3_tm5b"
+        }
+      ]
+    },
+    {
+      "id": "r3_tm5a",
+      "speaker": "Skyler",
+      "text": "\"You do this thing where you hold stuff out and wait to see if anyone takes it.\"",
+      "choices": [],
+      "next": "r3_tmBranch2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tm5b",
+      "speaker": "Skyler",
+      "text": "\"You do this thing where you just say stuff. Like it's easy. It's not easy.\"",
+      "choices": [],
+      "next": "r3_tmBranch2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tmBranch2",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance >= 1",
+          "next": "r3_tm6a"
+        },
+        {
+          "when": "else",
+          "next": "r3_tm6b"
+        }
+      ]
+    },
+    {
+      "id": "r3_tm6a",
+      "speaker": "Avery",
+      "text": "\"And you do this thing where you disappear,\" Avery says. \"And then show up anyway.\"",
+      "choices": [],
+      "next": "r3_tm7",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "steady",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tm6b",
+      "speaker": "Avery",
+      "text": "\"And you show up,\" Avery says. \"Even when you're scared. I see it.\"",
+      "choices": [],
+      "next": "r3_tm7",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tm7",
+      "speaker": "",
+      "text": "Neither of them says whether that was a compliment. The bus comes.",
+      "choices": [],
+      "next": "r3_tm8",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tm8",
+      "speaker": "",
+      "text": "January. Avery's on her own shift at the shelter, a kitten asleep in her hood. Across town, Skyler is working the café.",
+      "choices": [],
+      "next": "tg2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tg2",
+      "speaker": "Avery",
+      "text": "It's a Thursday. Avery texts Skyler: \"u free after ur shift?\"",
+      "choices": [],
+      "next": "tgBranch1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tgBranch1",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety < 0",
+          "next": "tg3a"
+        },
+        {
+          "when": "else",
+          "next": "tg3b1"
+        }
+      ]
+    },
+    {
+      "id": "tg3a",
+      "speaker": "",
+      "text": "She puts her phone face-down and goes back to the kittens. He'll answer when he answers.",
+      "choices": [],
+      "next": "tgBranch2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "steady",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tg3b1",
+      "speaker": "",
+      "text": "She checks. Delivered. She checks again. Read, 4:02 p.m.",
+      "choices": [],
+      "next": "tg3b2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tense",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tg3b2",
+      "speaker": "",
+      "text": "It's the same feeling as the printout on the counter: holding something out and waiting to see if anyone takes it.",
+      "choices": [],
+      "next": "tgBranch2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tgBranch2",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance < 0",
+          "next": "tg4a"
+        },
+        {
+          "when": "else",
+          "next": "tg4b1"
+        }
+      ]
+    },
+    {
+      "id": "tg4a",
+      "speaker": "Skyler",
+      "text": "Across town, Skyler's phone is in his apron at the café. When he sees it, he answers right away: \"sorry!! slammed. come by? fries after?\"",
+      "choices": [],
+      "next": "r3_tc1a",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tc1a",
+      "speaker": "",
+      "text": "She goes to the café.",
+      "choices": [],
+      "next": "echo_tc",
+      "bg": "cafe_night",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tg4b1",
+      "speaker": "Skyler",
+      "text": "Skyler sees the message. He means to answer.",
+      "choices": [],
+      "next": "tg4b2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "flat",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tg4b2",
+      "speaker": "",
+      "text": "But the notification just sits there, the way the phone sat ringing under the blanket, and it's easier not to.",
+      "choices": [],
+      "next": "r3_tg5",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tg5",
+      "speaker": "",
+      "text": "Five-thirty. Nothing. Avery puts the kitten back and gets her coat.",
+      "choices": [],
+      "next": "tc1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tc1",
+      "speaker": "",
+      "text": "She goes to the café anyway.",
+      "choices": [],
+      "next": "echo_tc",
+      "bg": "cafe_night",
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_tc",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance >= 1",
+          "next": "echo_tc_1"
+        },
+        {
+          "when": "skyler_avoidance <= -1",
+          "next": "echo_tc_2"
+        },
+        {
+          "when": "else",
+          "next": "r3_echo_tc_mid"
+        }
+      ]
+    },
+    {
+      "id": "echo_tc_1",
+      "speaker": "",
+      "text": "Through the window she can see his phone face-down by the register, under a sleeve of cups.",
+      "choices": [],
+      "next": "tc2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_tc_2",
+      "speaker": "",
+      "text": "Through the window she can see his phone propped face-up against the tip jar, her message still on the screen.",
+      "choices": [],
+      "next": "tc2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_echo_tc_mid",
+      "speaker": "",
+      "text": "Through the window she can see his phone by the register. He glances at it once between orders and keeps going.",
+      "choices": [],
+      "next": "tc2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tc2",
+      "speaker": "",
+      "text": "There's a flyer on the corkboard by the door: Theo's band, playing Saturday at the rec center. Skyler's name is on it. He never mentioned it.",
+      "choices": [],
+      "next": "tcBranch1",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tcBranch1",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety < 0",
+          "next": "tc3a"
+        },
+        {
+          "when": "else",
+          "next": "tc3b"
+        }
+      ]
+    },
+    {
+      "id": "tc3a",
+      "speaker": "Avery",
+      "text": "She takes a Polaroid of the flyer. She'll go. She'll tease him about the font.",
+      "choices": [],
+      "next": "tc4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tc3b",
+      "speaker": "Avery",
+      "text": "She reads it twice. She thinks about three canceled Saturdays, and a garage she counted the people in, and she can't stop counting now.",
+      "choices": [],
+      "next": "tc4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tense",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tc4",
+      "speaker": "",
+      "text": "Behind the counter, there's a line out the door and Skyler is alone on the bar, six cups deep.",
+      "choices": [],
+      "next": "r3_tcC",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tcC",
+      "speaker": "",
+      "text": "",
+      "choices": [
+        {
+          "text": "\"Want me to grab lids or something?\"",
+          "next": "tc5",
+          "effects": {
+            "avery_anxiety": 0
+          }
+        },
+        {
+          "text": "Duck under the counter and start on the lids. Don't ask.",
+          "next": "r3_tc5b",
+          "effects": {
+            "avery_anxiety": -1
+          }
+        },
+        {
+          "text": "Order a hot chocolate, so there's a reason to be standing there.",
+          "next": "r3_tc5c",
+          "effects": {
+            "avery_anxiety": 1
+          }
+        }
+      ],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tc5b",
+      "speaker": "",
+      "text": "She ducks under the counter flap and starts stacking lids before either of them can decide if that's allowed.",
+      "choices": [],
+      "next": "tcBranch2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tc5c",
+      "speaker": "",
+      "text": "She orders a hot chocolate she doesn't want, so there's a reason to be standing there. It takes eleven minutes. She doesn't count them. She counts them.",
+      "choices": [],
+      "next": "r3_tcBranch3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tcBranch3",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance < 0",
+          "next": "r3_tc6c"
+        },
+        {
+          "when": "else",
+          "next": "r3_tc6d"
+        }
+      ]
+    },
+    {
+      "id": "r3_tc6c",
+      "speaker": "Skyler",
+      "text": "He writes on her cup in Sharpie: \"fries after? 10 min.\" Then, smaller: \"sorry.\"",
+      "choices": [],
+      "next": "endBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_tc6d",
+      "speaker": "Skyler",
+      "text": "He spells her name right on the cup and slides it over without looking up. He's got it the way he had the worksheet at 1 a.m.: alone, and on purpose.",
+      "choices": [],
+      "next": "endBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "flat",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tc5",
+      "speaker": "Avery",
+      "text": "\"Want me to grab lids or something?\"",
+      "choices": [],
+      "next": "tcBranch2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "hopeful",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tcBranch2",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance < 0",
+          "next": "tc6a"
+        },
+        {
+          "when": "else",
+          "next": "tc6b"
+        }
+      ]
+    },
+    {
+      "id": "tc6a",
+      "speaker": "Skyler",
+      "text": "\"Lids. Yes. Please. I'm dying,\" he says, and hands her a sleeve of them like a napkin full of diagrams.",
+      "choices": [],
+      "next": "endBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "tc6b",
+      "speaker": "Skyler",
+      "text": "\"I've got it.\" He doesn't look up. He's got it the way he had the worksheet at 1 a.m.: alone, and on purpose.",
+      "choices": [],
+      "next": "endBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "flat",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "endBranch",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety + skyler_avoidance <= -4",
+          "next": "ge1"
+        },
+        {
+          "when": "avery_anxiety + skyler_avoidance >= 4",
+          "next": "be1"
+        },
+        {
+          "when": "else",
+          "next": "ne1"
+        }
+      ]
+    },
+    {
+      "id": "ge1",
+      "speaker": "",
+      "text": "They split a basket of fries on the curb outside the café at closing.",
+      "choices": [],
+      "next": "echo_ge",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_ge",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance <= -6",
+          "next": "echo_ge_1"
+        },
+        {
+          "when": "avery_anxiety <= -6",
+          "next": "echo_ge_2"
+        },
+        {
+          "when": "else",
+          "next": "ge2"
+        }
+      ]
+    },
+    {
+      "id": "echo_ge_1",
+      "speaker": "",
+      "text": "When he pays, she sees a napkin folded into his wallet, soft as cloth now, covered in someone else's diagrams. He kept it.",
+      "choices": [],
+      "next": "ge2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_ge_2",
+      "speaker": "",
+      "text": "Skyler paid. Large, without being asked. He's been keeping track.",
+      "choices": [],
+      "next": "ge2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ge2",
+      "speaker": "Avery",
+      "text": "\"You didn't answer for a bit,\" Avery says, and it's just an observation.",
+      "choices": [],
+      "next": "ge3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "steady",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ge3",
+      "speaker": "Skyler",
+      "text": "\"Slammed. I should've said.\" Skyler nudges her shoulder. \"I'll say next time. And I'm playing Saturday. I was scared you'd come. I want you to come.\"",
+      "choices": [],
+      "next": "ge4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "soft",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ge4",
+      "speaker": "",
+      "text": "Somewhere behind them: a printout on a kitchen counter, a phone ringing in the dark. Neither of them remembers. It shaped them anyway.",
+      "choices": [],
+      "next": "ge5",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ge5",
+      "speaker": "",
+      "text": "It's small. It's enough. The ripple went outward, and it came back gentle.",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": "good",
+      "branches": []
+    },
+    {
+      "id": "ne1",
+      "speaker": "",
+      "text": "They get fries after close. Mostly it's fine.",
+      "choices": [],
+      "next": "ne2",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ne2",
+      "speaker": "Avery",
+      "text": "Avery doesn't mention the flyer. Skyler doesn't explain it.",
+      "choices": [],
+      "next": "ne3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "guarded",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ne3",
+      "speaker": "",
+      "text": "On Saturday she goes to the show, and stands near the back, and he sees her, and they both pretend that's normal.",
+      "choices": [],
+      "next": "r3_neBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_neBranch",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety >= 1",
+          "next": "r3_ne3a"
+        },
+        {
+          "when": "skyler_avoidance >= 1",
+          "next": "r3_ne3b"
+        },
+        {
+          "when": "else",
+          "next": "r3_ne3c"
+        }
+      ]
+    },
+    {
+      "id": "r3_ne3a",
+      "speaker": "",
+      "text": "Walking home, she finds the flyer folded small in her pocket, the way the printout was. Held out. Nobody asked to see it.",
+      "choices": [],
+      "next": "ne4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_ne3b",
+      "speaker": "",
+      "text": "He almost says something on the walk to her bus. Then he lets it ring out, the way he does, and tells himself there'll be a better time.",
+      "choices": [],
+      "next": "ne4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_ne3c",
+      "speaker": "",
+      "text": "Nobody did anything wrong. That's the part that's hard to talk about.",
+      "choices": [],
+      "next": "ne4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "ne4",
+      "speaker": "",
+      "text": "The quiet between them isn't a fight. It isn't nothing, either.",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": "neutral",
+      "branches": []
+    },
+    {
+      "id": "be1",
+      "speaker": "",
+      "text": "She's waiting by the door when he finally clocks out.",
+      "choices": [],
+      "next": "echo_be",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_be",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety >= 6",
+          "next": "echo_be_1"
+        },
+        {
+          "when": "skyler_avoidance >= 6",
+          "next": "echo_be_2"
+        },
+        {
+          "when": "else",
+          "next": "beBranch"
+        }
+      ]
+    },
+    {
+      "id": "echo_be_1",
+      "speaker": "",
+      "text": "Her phone is already in her hand, open to a blurry photo of a garage she zoomed in on weeks ago.",
+      "choices": [],
+      "next": "beBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "echo_be_2",
+      "speaker": "",
+      "text": "Tuesdays and Fridays, he thinks when he sees her there. He could go back to Tuesdays and Fridays.",
+      "choices": [],
+      "next": "beBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "beBranch",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "skyler_avoidance < 0",
+          "next": "be2a"
+        },
+        {
+          "when": "else",
+          "next": "be2b"
+        }
+      ]
+    },
+    {
+      "id": "be2a",
+      "speaker": "Avery",
+      "text": "\"You answered in two minutes. Great. And you have a show Saturday that I find out about from a wall?\"",
+      "choices": [],
+      "next": "r3_beBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tense",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "be2b",
+      "speaker": "Avery",
+      "text": "\"Four o'clock, Skyler. You READ it at four. And you have a show Saturday that I find out about from a wall?\"",
+      "choices": [],
+      "next": "r3_beBranch",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tense",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_beBranch",
+      "speaker": "",
+      "text": "",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": null,
+      "branches": [
+        {
+          "when": "avery_anxiety >= 1",
+          "next": "r3_be2c"
+        },
+        {
+          "when": "else",
+          "next": "r3_be2e"
+        }
+      ]
+    },
+    {
+      "id": "r3_be2c",
+      "speaker": "Skyler",
+      "text": "\"I didn't know you were counting.\"",
+      "choices": [],
+      "next": "r3_be2d",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "guarded",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_be2d",
+      "speaker": "Avery",
+      "text": "\"I wasn't,\" Avery says. \"Until I couldn't stop.\"",
+      "choices": [],
+      "next": "be3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tense",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_be2e",
+      "speaker": "Skyler",
+      "text": "\"It's just a show.\"",
+      "choices": [],
+      "next": "r3_be2f",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "guarded",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "r3_be2f",
+      "speaker": "Avery",
+      "text": "\"It's not the show,\" Avery says. \"You know it's not the show.\"",
+      "choices": [],
+      "next": "be3",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "tense",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "be3",
+      "speaker": "Skyler",
+      "text": "He goes quiet the way he goes quiet at home. The louder she gets, the further away he is.",
+      "choices": [],
+      "next": "be4",
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": "blank",
+      "ending": null,
+      "branches": []
+    },
+    {
+      "id": "be4",
+      "speaker": "",
+      "text": "They both leave thinking the other one is the problem. Neither of them remembers a kitchen, or a phone ringing in the dark.",
+      "choices": [],
+      "next": null,
+      "bg": null,
+      "chapter": null,
+      "sfx": null,
+      "expr": null,
+      "ending": "bad",
+      "branches": []
+    }
+  ],
+  "variables": {
+    "avery_anxiety": 0,
+    "skyler_avoidance": 0
+  },
+  "start": "op1"
+}

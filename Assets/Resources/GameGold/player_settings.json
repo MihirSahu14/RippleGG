@@ -1,0 +1,36 @@
+{
+  "look": "duotone",
+  "textSpeedCps": 40,
+  "wordmarkTitle": true,
+  "ambience": true,
+  "volume": 0.5,
+  "twoCharacterStaging": true,
+  "choiceRipple": true,
+  "originalBackgrounds": [
+    "start_screen"
+  ],
+  "chapterColors": [
+    {
+      "chapter": "avery",
+      "color": "#4ea8ff"
+    },
+    {
+      "chapter": "skyler",
+      "color": "#ff5277"
+    },
+    {
+      "chapter": "together",
+      "color": "#b48cff"
+    }
+  ],
+  "characterSides": [
+    {
+      "speaker": "Avery",
+      "side": "left"
+    },
+    {
+      "speaker": "Skyler",
+      "side": "right"
+    }
+  ]
+}
