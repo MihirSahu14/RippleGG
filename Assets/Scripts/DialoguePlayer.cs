@@ -1,4 +1,4 @@
-// GameGold DialoguePlayer v6
+// GameGold DialoguePlayer v7
 // GameGold DialoguePlayer — plays a GameGold narrative dialogue JSON in Play mode.
 // Setup: put this on any GameObject, save the dialogue JSON as
 // Assets/Resources/GameGold/dialogue.json, backgrounds in Resources/GameGold/Backgrounds/<bg>,
@@ -22,6 +22,8 @@
 // Original art (v4): backgrounds listed in originalBackgrounds are shown exactly as drawn — no print, no tint.
 // Art cards (v5): a one-word ALL-CAPS line on an original-art background hides the textbox — the art is the card.
 // Cover fit (v6): backgrounds keep their aspect ratio and fill the screen (edges trimmed), never squashed.
+// Card prompt (v7): title/art cards fade in a pulsing "Click or press Space to continue" after 1.5 s — an
+// agent playtest showed first-time players waiting forever on the art card with no hint (gap 70).
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -127,7 +129,8 @@ public class DialoguePlayer : MonoBehaviour
     Font font;
     Image background, accent;
     AspectRatioFitter backgroundFit;
-    Text nameText, bodyText, endTitle, endSubtitle, wordmark, hint, volumeText;
+    Text nameText, bodyText, endTitle, endSubtitle, wordmark, hint, volumeText, cardHint;
+    float cardTime = -1f; // seconds a title/art card has been up; < 0 = no card showing
     GameObject textbox;
     RectTransform choiceBox;
     GameObject endPanel, pausePanel;
@@ -158,6 +161,15 @@ public class DialoguePlayer : MonoBehaviour
         {
             wordmarkAlpha = Mathf.Min(1f, wordmarkAlpha + Time.deltaTime / 1.5f);
             wordmark.color = new Color(1f, 1f, 1f, wordmarkAlpha);
+        }
+        if (cardTime >= 0f)
+        {
+            cardTime += Time.unscaledDeltaTime;
+            if (cardTime > 1.5f)
+            {
+                cardHint.gameObject.SetActive(true);
+                cardHint.color = new Color(1f, 1f, 1f, 0.5f + 0.35f * Mathf.Sin((cardTime - 1.5f) * 2.5f));
+            }
         }
         if (!typing) return;
         shown += Time.deltaTime * Mathf.Max(1f, charsPerSecond);
@@ -281,6 +293,8 @@ public class DialoguePlayer : MonoBehaviour
             return;
         }
         textbox.SetActive(true);
+        cardTime = -1f; // a normal line replaces any title/art card prompt
+        cardHint.gameObject.SetActive(false);
         hint.gameObject.SetActive(!hintDone); // first line only
         hintDone = true;
         var speaker = Str(current, "speaker") ?? "";
@@ -516,6 +530,8 @@ public class DialoguePlayer : MonoBehaviour
     {
         textbox.SetActive(false);
         stage.gameObject.SetActive(false);
+        cardTime = 0f;
+        cardHint.gameObject.SetActive(false);
         if (artCard)
         {
             wordmarkAlpha = 1f; // nothing fading in: the next click advances
@@ -531,7 +547,9 @@ public class DialoguePlayer : MonoBehaviour
     void HideWordmark()
     {
         wordmarkAlpha = -1f;
+        cardTime = -1f;
         if (wordmark != null) wordmark.gameObject.SetActive(false);
+        if (cardHint != null) cardHint.gameObject.SetActive(false);
     }
 
     // ─── Halftone / duotone (CPU, once per background + ink; no shader files, WebGL-safe) ──────
@@ -1189,6 +1207,11 @@ public class DialoguePlayer : MonoBehaviour
         wordmark = MakeText(root, "Wordmark", new Vector2(0.05f, 0.35f), new Vector2(0.95f, 0.65f), 120, FontStyle.Bold);
         wordmark.alignment = TextAnchor.MiddleCenter;
         wordmark.gameObject.SetActive(false);
+        cardHint = MakeText(root, "Card Prompt", new Vector2(0.2f, 0.04f), new Vector2(0.8f, 0.11f), 26, FontStyle.Normal);
+        cardHint.text = "Click or press Space to continue";
+        cardHint.alignment = TextAnchor.MiddleCenter;
+        cardHint.gameObject.AddComponent<Outline>().effectColor = new Color(0f, 0f, 0f, 0.6f); // readable on any art
+        cardHint.gameObject.SetActive(false);
 
         var box = MakeImage(root, "Textbox", new Vector2(0.04f, 0.03f), new Vector2(0.96f, 0.3f), new Color(0.04f, 0.05f, 0.08f, 0.88f));
         box.raycastTarget = false; // clicks fall through to the click catcher
